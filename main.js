@@ -10,6 +10,8 @@ function createWindow() {
     })
 
     win.loadFile('index.html')
+    // Load url
+    // win.loadURL('https://www.google.com')
 }
 
 app.on('ready', createWindow)
