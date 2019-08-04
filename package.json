@@ -5,7 +5,15 @@
   "main": "main.js",
   "scripts": {
     "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "build": {
+    "appId": "electron-demo",
+    "mac": {
+      "category": "game"
+    }
   },
   "repository": {
     "type": "git",
@@ -17,7 +25,9 @@
     "url": "https://github.com/Haixiang6123/electron-demo/issues"
   },
   "homepage": "https://github.com/Haixiang6123/electron-demo#readme",
-  "dependencies": {
-    "electron": "^6.0.0"
+  "dependencies": {},
+  "devDependencies": {
+    "electron": "^6.0.0",
+    "electron-builder": "^21.2.0"
   }
 }
