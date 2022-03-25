@@ -29,7 +29,7 @@
   "homepage": "https://github.com/Haixiang6123/electron-demo#readme",
   "dependencies": {},
   "devDependencies": {
-    "electron": "^6.0.0",
+    "electron": "^13.6.6",
     "electron-builder": "^21.2.0"
   }
 }
